@@ -97,7 +97,7 @@ cmd({
             `*🏷️ ᴛᴏ:* ${formattedResult} ${toCurrency}\n` +
             `*💰 ʀᴀᴛᴇ:* 1 ${fromCurrency} = ${rates[toCurrency]} ${toCurrency}\n\n` +
             `*⏰ ʟᴀsᴛ ᴜᴘᴅᴀᴛᴇᴅ:* ${response.data.time_last_update_utc}\n\n` +
-            `*> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ sɪʟᴇɴᴛʟᴏᴠᴇʀ⁴³²*`;
+            `*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ sɪʟᴇɴᴛʟᴏᴠᴇʀ⁴³²*`;
 
         reply(message);
 
