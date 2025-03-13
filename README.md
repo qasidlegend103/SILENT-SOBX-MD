@@ -15,6 +15,7 @@
 - **AUTO_REPLY 🚀**
 - **ALWAYS_ONLINE_OFFLINE 🚀**
 - **STATUS_REPLY_REACT 🚀**
+- **ON_AND_OFF_DATABASE🚀**
 - © ***POWERD BY SILENTLOVER432***
 
 ---------
