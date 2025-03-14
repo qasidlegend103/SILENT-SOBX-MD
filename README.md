@@ -100,7 +100,8 @@ href="https://github.com/SILENTLOVER0432/SILENT-SOBX-MD/network/members"><img ti
 -----------------
 
 🥂 `THIS BOT IS CREATED TO DOWNLOAD'S AND FIND VARIOUS TYPES THINGS QUICKLY **EXAMPLE** LOGO, PHOTO, STICKERS, VIDEOS, MOVIES, ADULT, AND MANY MORE FEATURES BY USING THIS BOT™ THIS BOT IS CREATED TO USING` 🥂 **[Baileys](https://github.com/WhiskeySockets/Baileys)🍾🌸💚**
-***POWERED BY SILENTLOVER***🧡💦💥
+
+***POWERED BY SILENTLOVER432***🌍🌸
 
 ------------------
 
