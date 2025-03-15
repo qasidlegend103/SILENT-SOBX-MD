@@ -156,8 +156,21 @@
       "description": "make it true if you want to show on status react.",
       "required": true,
       "value": "true"
-    }
+    },
 
+    "OWNER_NUMBER": {
+      "description": "replace it with your own number.",
+      "required": true,
+      "value": "+923096287432"
+    
+    }, 
+
+     "OWNER_NAME": {
+      "description": "replace it with your own name.",
+      "required": true,
+      "value": "➺ѕเℓεɳƭ_ℓσѵε૨࿐"
+    
+     }
 },
 
      
