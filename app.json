@@ -160,14 +160,14 @@
 
     "OWNER_NUMBER": {
       "description": "replace it with your own number.",
-      "required": true,
+      "required": false,
       "value": "923096287432"
     
     }, 
 
      "OWNER_NAME": {
       "description": "replace it with your own name.",
-      "required": true,
+      "required": false,
       "value": "➺ѕเℓεɳƭ_ℓσѵε૨࿐"
     
      }
