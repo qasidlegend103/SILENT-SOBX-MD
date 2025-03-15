@@ -10,12 +10,11 @@ const _0x5e9766 = {};
 function _0x4b55ec(_0x2e6bde, _0x5d13b1, _0x3242dd, _0xd36b5a) {
   return _0x3983(_0x2e6bde - 0x222, _0xd36b5a);
 }
-_0x5e9766.pattern = "videox";
-_0x5e9766.alias = ["mp4x"];
+_0x5e9766.pattern = "videoxtra";
 _0x5e9766.react = "🐦‍🔥";
 _0x5e9766.desc = "Download Youtube song";
 _0x5e9766.category = "main";
-_0x5e9766.use = ".song < Yt url or Name >";
+_0x5e9766.use = ".ytvxtra < Yt url or Name >";
 _0x5e9766.filename = __filename;
 cmd(_0x5e9766, async (_0x19c800, _0x3d9729, _0x341678, {
   from: _0x5662fe,
@@ -68,8 +67,7 @@ cmd(_0x5e9766, async (_0x19c800, _0x3d9729, _0x341678, {
   }
 });
 const _0x4d88de = {
-  pattern: "video2x",
-  alias: ["mp42x"],
+  pattern: "mp4",
   react: '🤩',
   desc: "Download YouTube song",
   category: "main"
@@ -101,7 +99,7 @@ cmd(_0x4d88de, async (_0x7b3cb1, _0x52124f, _0x66b017, {
     if (!_0x41c9f9.status || !_0x41c9f9.data || !_0x41c9f9.data.dl) {
       return _0x396821("❌ *Failed to fetch the video. Please try again later.*");
     }
-    let _0x33bda6 = "🎥 *SILENT-SOBX-MD VIDEO DOWNLOADER* 🎥\n\n📌 *Title:* " + _0x41c9f9.data.title + "\n🌐 *Source:* YouTube\n🔗 *Link:* " + _0x336809.url + "\n\n💾 *Downloading your video... Please wait!*";
+    let _0x33bda6 = "🎥 *SILENT-SOBX-MD VIDEO DOWNLOADER* 🎥\n\n📌 *Title:* " + _0x41c9f9.data.title + "\n🌐 *Source:* YouTube\n🔗 *Link:* " + _0x336809.url + "\n\n💾 *DOWNLOADING YOUR VIDEO PLEASE WAIT!*";
     const _0x229c30 = {
       url: _0x336809.thumbnail
     };
@@ -130,8 +128,8 @@ cmd(_0x4d88de, async (_0x7b3cb1, _0x52124f, _0x66b017, {
   }
 });
 const _0x3c550b = {
-  pattern: "mp3x",
-  alias: ["playx"],
+  pattern: "play",
+  alias: ["song"],
   react: '🎶',
   desc: "Download YouTube song",
   category: 'main',
@@ -149,7 +147,7 @@ cmd(_0x3c550b, async (_0x4014e9, _0x523581, _0x42dfde, {
     if (!_0x562fe3) {
       return await _0x199f48("❌ Please provide a YouTube URL or song name.");
     }
-    await _0x199f48("🎶 Downloading Audio... Please wait for *SILENT-SOBX-MD* user!");
+    await _0x199f48("🎶 *SILENT-SOBX-MD MUSIC FOUND PLEASE WAIT*");
     const _0x515492 = await ytsearch(_0x562fe3);
     if (_0x515492.results.length < 1) {
       return _0x199f48("❌ No results found!");
@@ -163,7 +161,7 @@ cmd(_0x3c550b, async (_0x4014e9, _0x523581, _0x42dfde, {
     if (!_0x52f8e8.status || !_0x52f8e8.download || !_0x52f8e8.download.downloadUrl) {
       return _0x199f48("❌ Failed to fetch the audio. Please try again later.");
     }
-    let _0x49ef3f = "🎶 *SILENT-SOBX-MD MUSIC DOWNLOADER* 🎶\n\n📀 *Title:* " + _0x52f8e8.download.title + "\n⏳ *Duration:* " + _0x52f8e8.result.duration + " sec\n🔗 *YouTube Link:* " + _0x122fb3.url + "\n🕒 *Expires In:* " + _0x52f8e8.download.expiresIn + "\n\n> *© Powered By SILENTLOVER432 ♡*";
+    let _0x49ef3f = "🎶 *SILENT-SOBX-MD MUSIC DOWNLOADER* 🎶\n\n📀 *TITLE:* " + _0x52f8e8.download.title + "\n⏳ *DURATION:* " + _0x52f8e8.result.duration + " sec\n🔗 *YOUTUBE LINK:* " + _0x122fb3.url + "\n🕒 *EXPIRES IN:* " + _0x52f8e8.download.expiresIn + "\n\n> *© POWERED BY SILENTLOVER432 ♡*";
     const _0xa0996 = {
       url: _0x122fb3.thumbnail
     };
