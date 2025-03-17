@@ -49,7 +49,7 @@ cmd({
 }) => { 
   if (!isOwner) return reply("*📛 Only the owner can use this command!*"); 
   if (!args[0]) return reply("❌ Please provide a new prefix."); 
-  const newPrefix = args[0]; 
+  const newPrefix = args[0].toLowerCase();
   config.PREFIX = newPrefix; 
   reply(`*Prefix changed to:* ${newPrefix}`); 
   const { exec } = require("child_process"); 
