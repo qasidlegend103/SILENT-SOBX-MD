@@ -35,6 +35,33 @@ let antilinkAction = "off"; // Default state
 let warnCount = {}; // Track warnings per user
 
 
+cmd({ 
+  pattern: "setprefix", 
+  alias: ["prefix"], 
+  desc: "Change bot prefix.", 
+  category: "settings", 
+  filename: __filename 
+}, async (conn, mek, m, { 
+  from, 
+  args, 
+  isOwner, 
+  reply 
+}) => { 
+  if (!isOwner) return reply("*📛 Only the owner can use this command!*"); 
+  if (!args[0]) return reply("❌ Please provide a new prefix."); 
+  const newPrefix = args[0]; 
+  config.PREFIX = newPrefix; 
+  reply(`*Prefix changed to:* ${newPrefix}`); 
+  const { exec } = require("child_process"); 
+  reply("*_DATABASE UPDATE SILENT-SOBX-MD RESTARTING NOW..._🚀_*"); 
+  await sleep(1500); 
+  exec("pm2 restart all"); 
+  reply("*_SILENT-SOBX-MD STARTED NOW..._🚀_*"); 
+});
+
+
+
+//========mode
 cmd({
     pattern: "mode",
     desc: "Set bot mode to private or public.",
