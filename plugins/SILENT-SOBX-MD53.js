@@ -112,10 +112,10 @@ async (conn, mek, m, { from, args, isOwner, reply }) => {
     // Check the argument for enabling or disabling the anticall feature
     if (args[0] === "on") {
         config.FAKE_TYPING = "true";
-        return reply("*fake_typing  is now enabled.*");
+        return reply("*_FAKETYPING  IS NOW ENABLED._*☑️");
     } else if (args[0] === "off") {
         config.FAKE_TYPING = "false";
-        return reply("fake_typing feature is now disabled.");
+        return reply("*_FAKETYPING FEATURE IS NOW DISABLED._*❌");
     } else {
         return reply(`*🫟 ᴇxᴀᴍᴘʟᴇ: . ғᴀᴋᴇ_ᴛʏᴘɪɴɢ ᴏɴ*`);
     }
@@ -139,10 +139,10 @@ async (conn, mek, m, { from, args, isOwner, reply }) => {
     // Check the argument for enabling or disabling the anticall feature
     if (args[0] === "on") {
         config.ALWAYS_ONLINE = "true";
-        return reply("*always_online  is now enabled.*");
+        return reply("*_ALWAYSONLINE  IS NOW ENABLED._*☑️");
     } else if (args[0] === "off") {
         config.ALWAYS_ONLINE = "false";
-        return reply("always_online feature is now disabled.");
+        return reply("*_ALWAYSONLINE FEATURE IS NOW DISABLED._*❌");
     } else {
         return reply(`*🫟 ᴇxᴀᴍᴘʟᴇ: . ᴀʟᴡᴀʏs_ᴏɴʟɪɴᴇ ᴏɴ*`);
     }
@@ -163,10 +163,10 @@ async (conn, mek, m, { from, args, isOwner, reply }) => {
     // Check the argument for enabling or disabling the anticall feature
     if (args[0] === "on") {
         config.FAKE_REACORDING = "true";
-        return reply("*fake_reacording  is now enabled.*");
+        return reply("*_FAKEREACORDING IS NOW ENABLED._*☑️");
     } else if (args[0] === "off") {
         config.FAKE_REACORDING = "false";
-        return reply("fake_reacording feature is now disabled.");
+        return reply("*_FAKEREACORDING FEATURE IS NOW DISABLED._*❌");
     } else {
         return reply(`*🫟 ᴇxᴀᴍᴘʟᴇ: . ғᴀᴋᴇ_ʀᴇᴀᴄᴏʀᴅɪɴɢ ᴏɴ*`);
     }
@@ -188,10 +188,10 @@ async (conn, mek, m, { from, args, isOwner, reply }) => {
     // Default value for AUTO_VIEW_STATUS is "false"
     if (args[0] === "on") {
         config.AUTO_READ_STATUS = "true";
-        return reply("Auto-viewing of statuses is now enabled.");
+        return reply("*_AUTOREADSTATUS IS NOW ENABLED._*☑️");
     } else if (args[0] === "off") {
         config.AUTO_READ_STATUS = "false";
-        return reply("Auto-viewing off statuses is now disabled.");
+        return reply("*_AUTOREADSTATUS IS NOW DISABLED._*❌");
     } else {
         return reply(`*🫟 ᴇxᴀᴍᴘʟᴇ:  .ᴀᴜᴛᴏ-sᴇᴇɴ ᴏɴ*`);
     }
@@ -213,10 +213,10 @@ async (conn, mek, m, { from, args, isOwner, reply }) => {
     // Default value for AUTO_LIKE_STATUS is "false"
     if (args[0] === "on") {
         config.AUTO_LIKE_STATUS = "true";
-        return reply("Auto-liking of statuses is now enabled.");
+        return reply("*_AUTOLIKESTATUS IS NOW ENABLED._*☑️");
     } else if (args[0] === "off") {
         config.AUTO_LIKE_STATUS = "false";
-        return reply("Auto-liking of statuses is now disabled.");
+        return reply("*_AUTOLIKESTATUS IS NOW DISABLED._*❌");
     } else {
         return reply(`Example: . status_react on`);
     }
