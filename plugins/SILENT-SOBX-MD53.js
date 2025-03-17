@@ -239,10 +239,10 @@ async (conn, mek, m, { from, args, isOwner, reply }) => {
     // Check the argument for enabling or disabling the anticall feature
     if (args[0] === "on") {
         config.READ_MESSAGE = "true";
-        return reply("readmessage feature is now enabled.");
+        return reply("*_READ MESSAGE FEATURE IS NOW ENABLED._*☑️");
     } else if (args[0] === "off") {
         config.READ_MESSAGE = "false";
-        return reply("readmessage feature is now disabled.");
+        return reply("*_READ MESSAGE FEATURE IS NOW DISABLED._*❌");
     } else {
         return reply(`_example:  .READ_MESSAGE on_`);
     }
@@ -264,10 +264,10 @@ async (conn, mek, m, { from, args, isOwner, reply }) => {
     // Check the argument for enabling or disabling the anticall feature
     if (args[0] === "on") {
         config.ANTI_BAD = "true";
-        return reply("*anti bad word is now enabled.*");
+        return reply("*_ANTI BAD WORD IS NOW ENABLED._*☑️");
     } else if (args[0] === "off") {
         config.ANTI_BAD = "false";
-        return reply("*anti bad word feature is now disabled*");
+        return reply("*_ANTI BAD WORD FEATURE IS NOW DISABLED._*❌");
     } else {
         return reply(`_example:  .ANTI_BAD_WORD on_`);
     }
@@ -289,10 +289,10 @@ async (conn, mek, m, { from, args, isOwner, reply }) => {
     // Check the argument for enabling or disabling the anticall feature
     if (args[0] === "on") {
         config.AUTO_STICKER = "true";
-        return reply("auto-sticker feature is now enabled.");
+        return reply("*_AUTO-STICKER FEATURE IS NOW ENABLED._*☑️");
     } else if (args[0] === "off") {
         config.AUTO_STICKER = "false";
-        return reply("auto-sticker feature is now disabled.");
+        return reply("*_AUTO-STICKER FEATURE IS NOW DISABLED._*❌");
     } else {
         return reply(`_example:  .auto-sticker on_`);
     }
@@ -314,10 +314,10 @@ async (conn, mek, m, { from, args, isOwner, reply }) => {
     // Check the argument for enabling or disabling the anticall feature
     if (args[0] === "on") {
         config.AUTO_REPLY = "true";
-        return reply("*auto-reply  is now enabled.*");
+        return reply("*_AUTO-REPLY  IS NOW ENABLED._*☑️");
     } else if (args[0] === "off") {
         config.AUTO_REPLY = "false";
-        return reply("auto-reply feature is now disabled.");
+        return reply("*_AUTO-REPLY FEATURE IS NOW DISABLED._*❌");
     } else {
         return reply(`*🫟 ᴇxᴀᴍᴘʟᴇ: . ᴀᴜᴛᴏ-ʀᴇᴘʟʏ ᴏɴ*`);
     }
@@ -340,10 +340,10 @@ async (conn, mek, m, { from, args, isOwner, reply }) => {
     // Check the argument for enabling or disabling the anticall feature
     if (args[0] === "on") {
         config.AUTO_VOICE = "true";
-        return reply("*auto-voice  is now enabled.*");
+        return reply("*_AUTO-VOICE  IS NOW ENABLED._*☑️");
     } else if (args[0] === "off") {
         config.AUTO_VOICE = "false";
-        return reply("auto-voice feature is now disabled.");
+        return reply("*_AUTO-VOICE FEATURE IS NOW DISABLED._*❌");
     } else {
         return reply(`*🫟 ᴇxᴀᴍᴘʟᴇ: . ᴀᴜᴛᴏ_ᴠᴏɪᴄᴇ ᴏɴ*`);
     }
@@ -366,10 +366,10 @@ async (conn, mek, m, { from, args, isOwner, reply }) => {
     // Check the argument for enabling or disabling the anticall feature
     if (args[0] === "on") {
         config.AUTO_REACT = "true";
-        await reply("*autoreact feature is now enabled.*");
+        await reply("*_AUTOREACT FEATURE IS NOW ENABLED._*☑️");
     } else if (args[0] === "off") {
         config.AUTO_REACT = "false";
-        await reply("autoreact feature is now disabled.");
+        await reply("*_AUTOREACT FEATURE IS NOW DISABLED._*❌");
     } else {
         await reply(`*🫟 ᴇxᴀᴍᴘʟᴇ: .ᴀᴜᴛᴏ_ʀᴇᴀᴄᴛ ᴏɴ*`);
     }
@@ -391,10 +391,10 @@ async (conn, mek, m, { from, args, isOwner, reply }) => {
     // Check the argument for enabling or disabling the anticall feature
     if (args[0] === "on") {
         config.HEART_REACT = "true";
-        await reply("*heart feature is now enabled.*");
+        await reply("*_HEARTREACT FEATURE IS NOW ENABLED._*☑️");
     } else if (args[0] === "off") {
         config.HEART_REACT = "false";
-        await reply("heart_react feature is now disabled.");
+        await reply("*_HEARTREACT FEATURE IS NOW DISABLED._*❌");
     } else {
         await reply(`*🫟 ᴇxᴀᴍᴘʟᴇ: .ʜᴇᴀʀᴛ_ʀᴇᴀᴄᴛ ᴏɴ*`);
     }
@@ -416,10 +416,10 @@ async (conn, mek, m, { from, args, isOwner, reply }) => {
     // Check the argument for enabling or disabling the anticall feature
     if (args[0] === "on") {
         config.OWNER_REACT = "true";
-        await reply("*ownerreact feature is now enabled.*");
+        await reply("*_OWNERREACT FEATURE IS NOW ENABLED._*☑️");
     } else if (args[0] === "off") {
         config.OWNER_REACT = "false";
-        await reply("ownerreact feature is now disabled.");
+        await reply("*_OWNERREACT FEATURE IS NOW DISABLED._*❌");
     } else {
         await reply(`*🫟 ᴇxᴀᴍᴘʟᴇ: .ᴏᴡɴᴇʀ_ʀᴇᴀᴄᴛ ᴏɴ*`);
     }
@@ -441,10 +441,10 @@ async (conn, mek, m, { from, args, isOwner, reply }) => {
     // Check the argument for enabling or disabling the anticall feature
     if (args[0] === "on") {
         config.AUTO_REPLY_STATUS = "true";
-        return reply("status-reply feature is now enabled.");
+        return reply("*_STATUS-REPLY FEATURE IS NOW ENABLED._*☑️");
     } else if (args[0] === "off") {
         config.AUTO_REPLY_STATUS = "false";
-        return reply("status-reply feature is now disabled.");
+        return reply("*_STATUS-REPLY FEATURE IS NOW DISABLED._*❌");
     } else {
         return reply(`*🫟 ᴇxᴀᴍᴘʟᴇ:  .ᴀᴜᴛᴏ_ʀᴇᴘʟʏ_sᴛᴀᴛᴜs ᴏɴ*`);
     }
@@ -637,10 +637,10 @@ cmd({
     // Enable or disable anti-link feature
     if (args[0] === "on") {
       config.ANTI_LINK = "true";
-      await reply("Anti-link feature is now enabled in this group.");
+      await reply("*_ANTI-LINK FEATURE IS NOW ENABLED IN THIS GROUP. LINKS NOT ALLOWED YET_*☑️");
     } else if (args[0] === "off") {
       config.ANTI_LINK = "false";
-      await reply("Anti-link feature is now disabled in this group.");
+      await reply("*_ANTI-LINK FEATURE IS NOW DISABLED IN THIS GROUP._*❌");
     } else {
       await reply(`*Invalid input! Use either 'on' or 'off'. Example:antilink on*`);
     }
