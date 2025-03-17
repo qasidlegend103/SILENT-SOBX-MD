@@ -57,9 +57,10 @@ cmd({
         config.MODE = "public";
         return reply("*_BOT MODE IS NOW SET TO PUBLIC ✅_*.")
         const {exec} = require("child_process")
-        await sleep(1500)
+reply("*_DATABASE UPDATE SILENT-SOBX-MD RESTARTING NOW...🚀_*")
+await sleep(1500)
 exec("pm2 restart all")
-reply("*_DATABASE UPDATE SILENT-SOBX-MD RESTARTING NOW...🚀_*");
+reply("*_SILENT-SOBX-MD STARTED NOW...🚀_*");
     } else {
         return reply("❌ Invalid mode. Please use `.mode private` or `.mode public`.");
     }
