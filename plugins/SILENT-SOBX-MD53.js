@@ -35,7 +35,7 @@ let antilinkAction = "off"; // Default state
 let warnCount = {}; // Track warnings per user
 
 
-/*cmd({
+cmd({
     pattern: "mode",
     desc: "Set bot mode to private or public.",
     category: "settings",
@@ -60,11 +60,11 @@ let warnCount = {}; // Track warnings per user
 reply("*_DATABASE UPDATE SILENT-SOBX-MD RESTARTING NOW...🚀_*")
 await sleep(1500)
 exec("pm2 restart all")
-reply("*_SILENT-SOBX-MD STARTED NOW...🚀_*
+reply("*_SILENT-SOBX-MD STARTED NOW...🚀_*")
     } else {
         return reply("❌ Invalid mode. Please use `.mode private` or `.mode public`.");
     }
-});*/
+});
 
 
 //--------------------------------------------
