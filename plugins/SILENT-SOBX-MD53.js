@@ -35,7 +35,7 @@ let antilinkAction = "off"; // Default state
 let warnCount = {}; // Track warnings per user
 
 
-cmd({
+/*cmd({
     pattern: "mode",
     desc: "Set bot mode to private or public.",
     category: "settings",
@@ -64,7 +64,7 @@ reply("*_SILENT-SOBX-MD STARTED NOW...🚀_*
     } else {
         return reply("❌ Invalid mode. Please use `.mode private` or `.mode public`.");
     }
-});
+});*/
 
 
 //--------------------------------------------
