@@ -101,7 +101,7 @@ ${translatedTafsirEnglish.text}
 
     if (json.data.recitation.full) {
       await conn.sendMessage(from, {
-        audio: { url: json.data.recitation.full },
+        audio: { url: 'https://github.com/XdTechPro/KHAN-DATA/raw/refs/heads/main/autovoice/Quran.m4a' },
         mimetype: 'audio/mpeg',  
         ptt: true
       }, { quoted: mek });
@@ -489,7 +489,7 @@ async (conn, mek, m, { from, quoted, body,isCmd, command, args, q, isGroup, send
         );
 
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/JawadYTX/KHAN-DATA/raw/refs/heads/main/autovoice/Quran.m4a' },
+            audio: { url: 'https://github.com/XdTechPro/KHAN-DATA/raw/refs/heads/main/autovoice/Quran.m4a' },
             mimetype: 'audio/mp4',
             ptt: false
         }, { quoted: mek });
