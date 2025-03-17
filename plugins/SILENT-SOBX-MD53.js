@@ -49,16 +49,17 @@ cmd({
 }) => { 
   if (!isOwner) return reply("*📛 Only the owner can use this command!*"); 
   if (!args[0]) return reply("❌ Please provide a new prefix."); 
-  const newPrefix = args[0].toLowerCase();
+  const newPrefix = args[0]; 
   config.PREFIX = newPrefix; 
+  // Save config to file 
+  fs.writeFileSync('./config.json', JSON.stringify(config, null, 2)); 
   reply(`*Prefix changed to:* ${newPrefix}`); 
   const { exec } = require("child_process"); 
-  reply("*_DATABASE UPDATE SILENT-SOBX-MD RESTARTING NOW..._🚀_*"); 
+  reply("*_DATABASE UPDATE SILENT-SOBX-MD RESTARTING NOW...🚀_*"); 
   await sleep(1500); 
   exec("pm2 restart all"); 
-  reply("*_SILENT-SOBX-MD STARTED NOW..._🚀_*"); 
+  reply("*_SILENT-SOBX-MD STARTED NOW...🚀_*"); 
 });
-
 
 
 //========mode
