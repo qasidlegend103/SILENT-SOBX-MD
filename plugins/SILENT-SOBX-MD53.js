@@ -35,7 +35,7 @@ let antilinkAction = "off"; // Default state
 let warnCount = {}; // Track warnings per user
 
 
-/*cmd({ 
+cmd({ 
   pattern: "setprefix", 
   alias: ["prefix"], 
   desc: "Change bot prefix.", 
@@ -57,7 +57,7 @@ let warnCount = {}; // Track warnings per user
   await sleep(1500); 
   exec("pm2 restart all"); 
   reply("*_SILENT-SOBX-MD STARTED NOW..._🚀_*"); 
-});*/
+});
 
 
 
