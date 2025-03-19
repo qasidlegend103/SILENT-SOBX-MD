@@ -13,12 +13,12 @@ function replaceYouTubeID(url) {
 }
 
 cmd({
-    pattern: "ultra",
-    alias: ["ytmp3ultra", "ytmp3dlultra"],
+    pattern: "play",
+    alias: ["yta", "song"],
     react: "🎵",
     desc: "Download Ytmp3",
     category: "download",
-    use: ".ultra <Text or YT URL>",
+    use: ".play <Text or YT URL>",
     filename: __filename
 }, async (conn, m, mek, { from, q, reply }) => {
     try {
@@ -38,16 +38,16 @@ cmd({
         const { url, title, image, timestamp, ago, views, author } = data.results[0];
 
         let info = `🍄 *SILENT-SOBX-MD 🫧 MUSIC* 🍄\n\n` +
-            `🎵 *Title:* ${title || "Unknown"}\n` +
-            `⏳ *Duration:* ${timestamp || "Unknown"}\n` +
-            `👀 *Views:* ${views || "Unknown"}\n` +
-            `🌏 *Release Ago:* ${ago || "Unknown"}\n` +
-            `👤 *Author:* ${author?.name || "Unknown"}\n` +
-            `🖇 *Url:* ${url || "Unknown"}\n\n` +
-            `🔽 *Reply with your choice:*\n` +
-            `1️⃣.1️⃣ *Audio Type* 🎵\n` +
-            `1️⃣.2️⃣ *Document Type* 📁\n\n` +
-            `|| "POWERED BY SILENTLOVER432 ♥️"}`;
+            `🎵 *TITLE:* ${title || "Unknown"}\n` +
+            `⏳ *DURATION:* ${timestamp || "Unknown"}\n` +
+            `👀 *VIEWS:* ${views || "Unknown"}\n` +
+            `🌏 *RELEASE AGO:* ${ago || "Unknown"}\n` +
+            `👤 *AUTHOR:* ${author?.name || "Unknown"}\n` +
+            `🖇 *URL:* ${url || "Unknown"}\n\n` +
+            `🔽 *REPLY WITH YOUR CHOICE:*\n` +
+            `1️⃣.1️⃣ *AUDIO TYPE* 🎵\n` +
+            `1️⃣.2️⃣ *DOCUMENT TYPE* 📁\n\n` +
+            `> || POWERED BY SILENTLOVER432 ♥️`;
 
         const sentMsg = await conn.sendMessage(from, { image: { url: image }, caption: info }, { quoted: mek });
         const messageID = sentMsg.key.id;
