@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "enter your session",
+    SESSION_ID: process.env.SESSION_ID || "SILENT-SOBX-MD~edgAAbLA#OFvsc-8017-Dg6dK5dbLfDAaxLc7aJx9PQj66TRcUWg",
     CAPTION: process.env.CAPTION || "POWERED BY SILENTLOVER432",
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
     AUTO_REPLY_STATUS: process.env.AUTO_REPLY_STATUS || "true",
@@ -27,11 +27,11 @@ module.exports = {
     AUTO_REACT: process.env.AUTO_REACT || "true",
     HEART_REACT: process.env.HEART_REACT || "true",
     OWNER_REACT: process.env.OWNER_REACT || "true",
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "923096287432",
-    OWNER_NAME: process.env.OWNER_NAME || "➺ѕเℓεɳƭ_ℓσѵε૨࿐",
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "923053926167",
+    OWNER_NAME: process.env.OWNER_NAME || "➺𝘘𝘢𝘴𝘪𝘥𝘭𝘦𝘨𝘦𝘯𝘥࿐",
     READ_CMD: process.env.READ_CMD || "true",
     BOT_NAME: process.env.BOT_NAME || "➺ѕเℓεɳƭ_ℓσѵε૨࿐",
-    STATUS_REPLY: process.env.STATUS_REPLY || "`➺үσυя sтαтυs sεεη נυsт ησω вү sιℓεηт-sσвx-м∂`",
+    STATUS_REPLY: process.env.STATUS_REPLY || "`➺үσυя sтαтυs sεεη נυsт ησω вү 𝘘𝘢𝘴𝘪𝘥𝘭𝘦𝘨𝘦𝘯𝘥",
     STATUS_REACT: process.env.STATUS_REACT || "true",
     ANTI_VV: process.env.ANTI_VV || "true",// true for anti once view 
     ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "same", // change it to 'log' if you want to resend deleted message in ib chat 
